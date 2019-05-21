@@ -1,0 +1,178 @@
+#currency_converter form {
+    padding: 0px;
+    margin: 0px;
+}
+
+#currency_converter div {
+    padding: 0px;
+    margin: 0px;
+    width:170px;
+}
+
+#currency_converter #calc_div, #currency_converter #calc_div_iframe, #currency_converter .form_bottom {
+    display: none;
+}
+
+#currency_converter .required, #currency_converter .err {
+    color: #84c0ef;
+}
+
+#currency_converter .form_table_outframe {
+    display: block;
+    width: 200px;
+    font-family: Verdana, sans-serif;
+    font-size: 11px;
+    color:#ffffff;
+    background-color:#02406c;
+}
+
+#currency_converter .page_header {
+    display: block;
+    float: left;
+    width: 200px;
+    background-color: #02406c;
+    color: #FFFFFF;
+    text-align:center;
+    line-height:25px;
+    padding-bottom:5px;
+    border-bottom: solid 1px #ffffff;
+    font-family:Verdana, Geneva, sans-serif;
+    font-size:16px;
+    text-transform: capitalize;
+}
+
+#currency_converter .form_table_frame {
+    float: left;
+    width: 200px;
+    padding: 0px;
+}
+
+#currency_converter .form_table {
+    display: block;
+    float: left;
+    width: 200px;
+
+    padding-bottom:10px;
+    background: url(../images/background_main.gif) top repeat-x #02406c;
+}
+
+#currency_converter .form_table_row {
+    display: block;
+    width: 180px;
+    margin-left:10px;
+    margin-top:10px;
+}
+
+#currency_converter #calculator_subscribe {
+    width: 179px;
+}
+
+#currency_converter .form_fields, .form_label_bgr, select {
+    font-family: Verdana, sans-serif;
+    font-size: 11px;
+}
+/* #currency_converter_menu_links */
+#currency_converter a, #currency_converter a:visited, #currency_converter a:active {
+    text-decoration: underline;
+    color: #3963AB;
+}
+
+#currency_converter a:hover {
+    text-decoration: underline;
+}
+
+#currency_converter #currency_converter_menu_links a {
+    display: block;
+    font-size: 11px;
+    float: left;
+    width: 100%;
+    margin-bottom:5px;
+    margin-left:10px;
+    padding-left:20px;
+    display:inline;
+    line-height:15px;
+    color:#ffffff;
+    min-height: 16px;
+}
+
+#currency_converter #currency_converter_menu_links  a {
+    background: url(../images/bullet_question.gif) left no-repeat;
+}
+
+#currency_converter #currency_converter_menu_links a.uri3431 {
+    background: url(../images/bullet_add.gif) left no-repeat;
+}
+
+#currency_converter #currency_converter_calculator_subscribe_form_under_info {
+    display: block;
+    float: left;
+    width: 180px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: left;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+#currency_converter .checkradio_form_label_cell {
+    display: block;
+    width: 90%;
+}
+
+#currency_converter .rate_calc_result {
+    display: block;
+    float: left;
+    width: 175px;
+    padding: 2px;
+    text-align: left;
+    font-weight: normal;
+    background-color: #84c0ef;
+    color:#01406b;
+    padding-left:4px;
+    clear: both;
+}
+
+#currency_converter .rate_calc_result a{
+    color:#01406b;
+}
+
+#currency_converter .form_label_bgr, #currency_converter .form_fields {
+    width:180px;
+    font-family:Verdana, Geneva, sans-serif;
+    font-size:11px;
+    color:#333333;
+}
+
+#currency_converter .btn_submit {
+    width:179px;
+    height:25px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:14px;
+    line-height:25px;
+    color:#013153;
+    border:none;
+    font-weight:bold;
+    background: url(../images/button_convert.gif) left no-repeat;
+    cursor:pointer;
+}
+
+#powerd {
+    float:left;
+    width:200px;
+    clear:left;
+    margin-top:4px;
+}
+
+#powerd a {
+    font-family:verdana;
+    font-size:10px;
+    color:#333333;
+    text-decoration:none;
+}
+
+#powerd a:hover {
+    font-family:verdana;
+    font-size:10px;
+    color:#333333;
+    text-decoration:underline;
+}
