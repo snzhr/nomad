@@ -1,0 +1,55 @@
+.logo{
+	max-width: 80%;
+}
+
+
+@media screen and (max-width: 768px){
+.logo {max-width: 150%;
+padding: 3%;}
+}
+
+
+@media only screen 
+and (min-width : 320px) 
+and (max-width : 420px) {
+.logo {max-width: 300%;
+}
+}
+
+@media only screen 
+and (min-width : 420px) 
+and (max-width : 568px) {
+.logo {max-width: 200%;
+}
+}
+
+
+@media screen and (max-width: 320px){
+.logo{
+	max-width: 500%;
+}
+
+}
+
+
+.social-icons ul li{
+	list-style: none;
+	display: inline-block;	
+	cursor: pointer;
+}
+.social-icons ul li i{
+	font-size: 170%;
+}
+.social-icons{
+	
+}
+.topbar{
+	margin: 0 1% 0 1%;
+}
+.social-icons a:nth-child(2):hover{
+	color: #000080;
+}
+
+.util {
+	display: inline-block;
+}
