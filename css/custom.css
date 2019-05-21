@@ -4,16 +4,30 @@
 
 
 @media screen and (max-width: 768px){
-.logo {max-width: 200%;
+.logo {max-width: 150%;
 padding: 3%;}
 }
 
 
 @media only screen 
 and (min-device-width : 320px) 
+and (max-device-width : 428px) {
+.logo {max-width: 300%;}
+}
+
+@media only screen 
+and (min-device-width : 428px) 
 and (max-device-width : 568px) {
 .logo {max-width: 200%;}
 }
+
+@media screen and (max-width: 320px){
+.logo{
+	max-width: 500%;
+}
+
+}
+
 
 .social-icons ul li{
 	list-style: none;
