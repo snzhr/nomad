@@ -8,9 +8,11 @@
 padding: 3%;}
 
 
-@media screen and (max-width: 568px){
+@media screen and (max-width: 320px){
 .logo {max-width: 200%;
-padding: 3%;}
+}
+
+
 .social-icons ul li{
 	list-style: none;
 	display: inline-block;	
