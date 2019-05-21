@@ -10,16 +10,19 @@ padding: 3%;}
 
 
 @media only screen 
-and (min-device-width : 320px) 
-and (max-device-width : 428px) {
-.logo {max-width: 300%;}
+and (min-width : 320px) 
+and (max-width : 420px) {
+.logo {max-width: 300%;
+}
 }
 
 @media only screen 
-and (min-device-width : 428px) 
-and (max-device-width : 568px) {
-.logo {max-width: 200%;}
+and (min-width : 420px) 
+and (max-width : 568px) {
+.logo {max-width: 200%;
 }
+}
+
 
 @media screen and (max-width: 320px){
 .logo{
